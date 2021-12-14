@@ -1,4 +1,4 @@
-FROM php:7.4.2-cli
+FROM php:7.4.23-cli
 
 COPY ./rootfilesystem/ /
 COPY ./supervisor-files/supervisord-websocket.conf /etc/supervisor/conf.d/supervisord.conf
