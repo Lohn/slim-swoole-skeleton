@@ -1,4 +1,4 @@
-FROM php:7.4.2-cli
+FROM php:7.4.7-cli
 
 COPY ./rootfilesystem/ /
 COPY ./supervisor-files/supervisord-unixsocket.conf /etc/supervisor/conf.d/supervisord.conf
